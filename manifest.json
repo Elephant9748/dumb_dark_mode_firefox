@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "dumb_dark_mode",
+  "version": "1.0",
+
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+      "default_icon": "popup/icons/dark_mode_icon.png",
+      "default_title": "darkmode",
+      "default_popup": "popup/index.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "dum_dark_mode00@earendel"
+  }
+}
+
